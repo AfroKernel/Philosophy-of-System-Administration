@@ -1,4 +1,5 @@
 The Philosophy of System Administration
+
 Although the specifics of being a system administrator may change from platform to platform, there are
 underlying themes that do not. These themes make up the philosophy of system administration.
 The themes are:
@@ -405,6 +406,7 @@ use RPM to verify whether any changes have been made to the packages comprising 
 system. However, because RPM is primarily a package management tool, its abilities as an IDS are
 somewhat limited. Even so, it can be a good first step toward monitoring a Red Hat Enterprise Linux
 system for unauthorized modifications.
+
 1.11.2. Useful Websites
 
 http://www.kernel.org/pub/linux/libs/pam/ -- The Linux-PAM project homepage.
