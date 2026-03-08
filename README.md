@@ -29,6 +29,7 @@ This list is by no means complete; the functions automated by system administrat
 an administrator's willingness to write the necessary scripts. In this case, being lazy (and making the
 computer do more of the mundane work) is actually a good thing.
 Automation also gives users the extra benefit of greater predictability and consistency of service.
+
 1.2. Document Everything
 If given the choice between installing a brand-new server and writing a procedural document on
 performing system backups, the average system administrator would install the new server every time.
@@ -81,6 +82,7 @@ ECB, 12-June-2002 -- Updated entry for new Accounting printer (to support the re
 ability to print duplex)
 
 1.3. Communicate as Much as Possible
+
 When it comes to your users, you can never communicate too much. Be aware that small system
 changes you might think are practically unnoticeable could very well completely confuse the
 administrative assistant in Human Resources.
@@ -93,7 +95,9 @@ Tell your users what you are going to do
 Tell your users what you are doing
 Tell your users what you have done
 The following sections look at these steps in more depth.
+
 1.3.1. Tell Your Users What You Are Going to Do
+
 Make sure you give your users sufficient warning before you do anything. The actual amount of
 warning necessary varies according to the type of change (upgrading an operating system demands
 more lead time than changing the default color of the system login screen), as well as the nature of
@@ -132,6 +136,7 @@ CPU module is a 2GHz unit with twice as much L2 cache, or that the database is b
 RAID 5 logical volume
 
 1.3.2. Tell Your Users What You Are Doing
+
 This step is primarily a last-minute warning of the impending change; as such, it should be a brief repeat
 of the first message, though with the impending nature of the change made more apparent ("The system
 upgrade will take place TONIGHT."). This is also a good place to publicly answer any questions you may
@@ -176,6 +181,7 @@ With this kind of information, your users will have sufficient background knowle
 work, and to understand how the changes impact them.
 
 1.4. Know Your Resources
+
 System administration is mostly a matter of balancing available resources against the people and
 programs that use those resources. Therefore, your career as a system administrator will be a short and
 stress-filled one unless you fully understand the resources you have at your disposal.
@@ -209,6 +215,7 @@ understand the nature of the business environment in which you work. This can be
 question:
 
 What is the purpose of the systems you administer?
+
 The key point here is to understand your systems' purpose in a more global sense:
 Applications that must be run within certain time frames, such as at the end of a month, quarter, or year
 The times during which system maintenance may be done
@@ -217,6 +224,7 @@ By taking into account your organization's business, you will find that your day
 better for your users, and for you.
 
 1.7. Security Cannot be an Afterthought
+
 No matter what you might think about the environment in which your systems are running, you cannot
 take security for granted. Even standalone systems not connected to the Internet may be at risk (although
 obviously the risks will be different from a system that has connections to the outside world).
@@ -230,7 +238,9 @@ only attack your systems from outside of your company. Many times the perpetrato
 company. So the next time you walk around the office, look at the people around you and ask yourself this
 question:
 What would happen if that person were to attempt to subvert our security?
+
 1.7.1. The Risks of Social Engineering
+
 While most system administrators' first reactions when they think about security is to concentrate on the
 technological aspects, it is important to maintain perspective. Quite often, security breaches do not have
 their origins in technology, but in human nature.
@@ -259,6 +269,7 @@ available as a sounding board for users' questions about things that do not seem
 In short, get the message out to your users any way you can.
 
 1.8. Plan Ahead
+
 System administrators that took all this advice to heart and did their best to follow it would be fantastic
 system administrators -- for a day. Eventually, the environment will change, and one day our fantastic
 administrator would be caught flat-footed. The reason? Our fantastic administrator failed to plan ahead.
@@ -270,7 +281,9 @@ Talk of an impending acquisition means that you may end up being responsible for
 incompatible) systems in one or more remote locations
 Being able to read these signs (and to respond effectively to them) makes life easier for you and your
 users.
+
 1.9. Expect the Unexpected
+
 While the phrase "expect the unexpected" is trite, it reflects an underlying truth that all system
 administrators must understand:
 There will be times when you are caught off-guard.
@@ -293,6 +306,7 @@ quickly add a new disk drive to the system.
 PREVIOUS
 
 What a Linux administrator must know by head?
+
 I think there are a few skills that are pretty important.
 You must be able to configure the network using just cli tools like ifconfig, route, and ip.
 
@@ -317,10 +331,14 @@ be able to read the results. All the nice GUI features in Wireshark are nice, bu
 may not actually be able to access Wireshark.
 There are a large number of networking problems that I was able to quickly identify and solve just by
 running tcpdump.
+
 1.10. Red Hat Enterprise Linux-Specific Information
+
 This section describes information related to the philosophy of system administration that is specific to
 Red Hat Enterprise Linux.
+
 1.10.1. Automation
+
 Automation of frequently-performed tasks under Red Hat Enterprise Linux requires knowledge of several
 different types of technologies. First are the commands that control the timing of command or script
 execution. The cron and at commands are most commonly used in these roles.
@@ -351,12 +369,13 @@ the other hand, tends to be a more "self-contained" process. However, many perl 
 
 based on the syntax of various traditional UNIX utility programs, and as such are familiar to those Red
 Hat Enterprise Linux system administrators with shell scripting experience.
+
 1.10.2. Documentation and Communication
+
 In the areas of documentation and communication, there is little that is specific to Red Hat Enterprise
 
 Linux. Since documentation and communication can consist of anything from adding comments to a text-
 based configuration file to updating a webpage or sending an email, a system administrator using Red Hat
-
 Enterprise Linux must have access to text editors, HTML editors, and mail clients.
 Here is a small sample of the many text editors available under Red Hat Enterprise Linux:
 The gedit text editor
